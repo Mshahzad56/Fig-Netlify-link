@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .LandingPage-main {
+    background-image: url('../Images/bcimage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 68.294px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.354px;
+  }
+  .content p {
+  color: #ADB7BE;
+  text-align: center;
+  font-size: 22.765px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  letter-spacing: -0.354px;
+  }
+  .landingPage-Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .landingPage-Buttons Button {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 0px 8px;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .search {
+    display: flex;
+    width: 100%;
+    padding: 10px 12px;
+     justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .search-icon {
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 2px solid var(--Default-10, rgba(255, 255, 255, 0.10));
+    backdrop-filter: blur(7px);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+  }
+  .search input{
+  background: transparent;
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  outline: none;
+  color: white;
+  
+  }
+
+  .Landing-page-buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  .Landing-page-buttons ul li a{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+  }
+  .Landing-page-buttons ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .Landing-page-buttons ul li a:hover{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-color: rgba(12, 140, 233, 1);
+    transition: 0.3s ease-in-out;
+
+  }
+  .Landing-page-buttons .Active{
+    border-color: rgba(12, 140, 233, 1);
+  }
+  
+  
+  /* media Query  for responsiveness*/
+  
+   @media only screen and (max-width: 790px) {
+    .LandingPage-main {
+      height: auto;
+      padding: 20px;
+  
+    }
+  
+    .content h1 {
+      font-size: 35px;
+      margin-left: 20px;
+    }
+  
+    .content p {
+      font-size: 18px;
+      margin-left: 20px;
+    }
+  
+    .landingPage-Buttons Button {
+      font-size: 16px;
+      row-gap: 10px;
+    }
+  
+    .search {
+      width: 100%;
+    }
+  
+    .search-icon {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+  
+    .search-icon input {
+      font-size: 16px;
+    }
+    .Landing-page-buttons ul li {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+    .Landing-page-buttons ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    
+  }
+  }
+  
+  
+  
+  @media only screen and (max-width:490px) {
+    .landingPage-Buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+  
+    }
+  }
+  
+  @media only screen and (max-width:346px) {
+    .landingPage-Buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+  
+    }
+  }

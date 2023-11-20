@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Urbanist:wght@500;800&display=swap');
+
+.HomeNavbar{
+    background:transparent !important;
+}
+
+.container .Head2{
+    color:white; 
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family:Urbanist ;
+}
+
+.container .Head2:hover {
+    color: rgba(12, 140, 233, 1);
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+a.Head2.active.nav-link.active {
+    color: #0C8CE9
+}
+
+.HeadDown-Arrow1 {
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.HeadBtn {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #0C8CE9;
+    color: white;
+    margin-right: 14px;
+    font-weight: 500;
+    font-family:Urbanist ;
+}
+
+.head-searchicon{
+    top: 14px;
+    color: gray;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.inputHome input[type="text"]{
+    width: 10px;
+    transition: 2s ease-in-out;
+}
+.inputHome input{
+    height: 48px;
+    border: none;
+    padding-left: 10px !important;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+.SearchIcon-Head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputHome input[type="text"]:focus{
+    width: 100%;
+    outline: none;
+}
+
+

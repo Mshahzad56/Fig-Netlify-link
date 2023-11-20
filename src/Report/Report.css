@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;800&display=swap');
+
+.Report-Sec-1 {
+    background-image: url('../Images/Background.png');
+    height: 215px;
+    width: 100%;
+}
+
+.Report-Sec-1 h1 {
+    height: 48px;
+    color: white;
+    margin-left: 180px;
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.Report-dflex {
+    display: flex;
+    margin-left: 180px;
+    height: 22px;
+    margin-top: 15px;
+}
+
+.Report-Sec-1 .arrow {
+    width: 20px;
+    height: 12px;
+}
+
+.Report-h1 {
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(35, 29, 79, 1);
+}
+
+.Report-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    color: rgba(17, 17, 17, 1);
+    margin-top: 30px;
+}
+.Upload-Icon-input{
+    width: 100%;
+    height: 64.63px;
+    border-radius: 4.48px;
+    border: solid 1px rgb(214, 214, 216);
+    background-color: rgba(248, 249, 252, 1);
+    margin-top: 10px;
+    padding: 20px;
+    outline: none;
+    color: rgb(116, 116, 117);
+    display: flex;
+    gap: 15px;
+}
+.upload-icon img{
+    width: 35%;
+}
+.upload-input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.Report-input {
+    width: 100%;
+    height: 64.63px;
+    border-radius: 4.48px;
+    border: solid 1px rgb(214, 214, 216);
+    background-color: rgba(248, 249, 252, 1);
+    margin-top: 10px;
+    padding: 20px;
+    outline: none;
+    color: rgb(116, 116, 117);
+
+}
+.Report-input:focus{
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    height: 317px;
+    border-radius: 4.48px;
+    border: 1px;
+    border: solid 1px rgb(214, 214, 216);
+    background-color: rgba(248, 249, 252, 1);
+    outline: none;
+    padding: 20px;
+}
+
+.Report-btn2 {
+    width: 133.92px;
+    height: 60px;
+    border-radius: 6.67px;
+    border: 1.33px;
+    background: rgba(12, 140, 233, 1);
+    color: white;
+    font-weight: 500;
+    line-height: 26.67px;
+    align-items: center;
+}
+
+.Report-btn2:hover {
+    background: rgba(13, 0, 112, 0.918);
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Urbanist:wght@500;800&display=swap');
+
+.container .Head1{
+    color:rgba(123, 136, 168, 1); 
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family:Urbanist ;
+}
+
+.container .Head1:hover {
+    color: rgba(12, 140, 233, 1);
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+a.Head1.active.nav-link.active {
+    color: #0C8CE9;
+}
+
+.HeadDown-Arrow {
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.HeadBtn {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #0C8CE9;
+    color: white;
+    margin-right: 14px;
+    font-weight: 500;
+    font-family:Urbanist ;
+}
+
+.head-searchicon{
+    top: 14px;
+    color: gray;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.input input[type="text"]{
+    width: 10px;
+    transition: 2s ease-in-out;
+}
+.input input{
+    height: 48px;
+    border: none;
+    padding-left: 10px !important;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.SearchIcon-Head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input[type="text"]:focus{
+    width: 100%;
+    outline: none;
+}
+
+

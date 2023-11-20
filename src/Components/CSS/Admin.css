@@ -1,0 +1,207 @@
+.adminpenal-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  font-family: "Poppins", sans-serif;
+}
+.adminpenal-main .said-bar {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 7px 0px 25px #b9b8b8;
+  z-index: 13;
+}
+.saidbar-main {
+  width: 95%;
+}
+.saidbar-main .logo {
+  width: 139px;
+  margin: 20px 0px 20px 0px;
+}
+.saidbar-main .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+}
+.saidbar-main .menu ul li {
+  margin: 10px 0px 10px 0px;
+  position: relative;
+}
+.saidbar-main .menu ul li a {
+  text-decoration: none;
+  color: #b7b7bb;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+}
+.saidbar-main .menu ul li .counter{
+    font-size: 9px;
+    color: #fff;
+    background-color: #007DFA;
+    padding: 2px 6px 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 9.5rem;
+}
+.saidbar-main .menu ul li a svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 26px;
+}
+.saidbar-main .menu ul li a:hover {
+  background-color: #f2f2f5;
+}
+.saidbar-main .menu ul li a:hover {
+  color: #282d4f;
+}
+.saidbar-main .menu .hamburger {
+  font-size: 2.2rem;
+  display: none;
+}
+.saidbar-main .setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.saidbar-main .setting .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.saidbar-main .setting .row img {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+.saidbar-main .setting .row .names p {
+  font-size: 14px;
+  color: #282d4f;
+}
+.saidbar-main .setting .row .names .admin-name {
+  font-size: 14px;
+  color: #b5b6bb;
+}
+.saidbar-main .setting i {
+  font-size: 30px;
+  color: #b5b6bb;
+}
+
+
+
+
+
+.adminpenal-main .right-said {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.adminpenal-main .right-said .search-top{
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: #fff;
+}
+.adminpenal-main .right-said .search-top .search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 1rem 0px 2rem;
+}
+.adminpenal-main .right-said .search-top .search button,
+.adminpenal-main .right-said .search-top .search input
+{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.adminpenal-main .right-said .search-top .search button{
+  font-size: 1.9rem;
+  color: #B8BED7;
+  margin: 0px 10px 0px 10px;
+}
+.adminpenal-main .right-said .search-top .search input{
+  font-size: 16px;
+  padding: 20px;
+  width: 100%;
+  border-right: 1px solid #E5E5E5;
+}
+.adminpenal-main .right-said .search-top span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  color: #282D4F;
+  position: relative;
+}
+.adminpenal-main .right-said .search-top span i{
+  position: absolute;
+  top: 5px;
+  right: -1rem;
+  background-color: #0C8CE9;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-style: normal;
+}
+
+
+.adminpenal-main .right-said .search-user{
+  width: 100%;
+  background-color: #F2F2F5;
+  padding-bottom: 2rem;
+}
+.adminpenal-main .right-said .search-user .user-div{
+ margin: 2rem 0px 0px 2.5rem;
+}
+.adminpenal-main .right-said .search-user .user-div h3{
+  font-size: 14px;
+  color: #878997;
+  font-weight: 300;
+}
+.adminpenal-main .right-said .search-user .user-div .user{
+  display: flex;
+  margin-top: 2rem;
+}
+.adminpenal-main .right-said .search-user .user-div .user img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-right: 20px;
+}
+.adminpenal-main .right-said .search-user .user-div .user .user-name{
+  display: flex;
+  flex-direction: column;
+}
+.adminpenal-main .right-said .search-user .user-div .user .user-name .name{
+  display: flex;
+}
+.adminpenal-main .right-said .search-user .user-div .user .user-name .name .userName{
+  font-size: 14px;
+  color: #282D4F;
+  font-weight: 800;
+}
+.adminpenal-main .right-said .search-user .user-div .user .user-name .name .premium{
+  margin-left: 25px;
+  font-size: 14px;
+  color: #0C8CE9;
+}
+.adminpenal-main .right-said .search-user .user-div .user .user-name .email{
+  font-size: 14px;
+  color: #878997;
+}

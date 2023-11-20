@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Space+Grotesk:wght@500&family=Urbanist:wght@500;800&display=swap');
+.FooterMain {
+    height: 430px;
+    width: 100%;
+    background: linear-gradient(71.72deg, #1D73FE 26.21%, #1D7BF9 34.7%, #1D92EA 48.42%, #1EB8D3 66.07%, #1EEBB3 85.67%, #1EEFB0 86.98%);
+    text-align: center;
+    color: white;
+}
+
+.WhiteLogo {
+    width: 263.59px;
+    height: 57.5px;
+    margin-top: 5rem;
+}
+
+.FooterMain p {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.FooterLink{
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.20454545319080353px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    text-decoration: none;
+}
+.FooterLink:hover{
+    color:#004f88;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+.FooterIcon svg{
+    font-size: 30px;
+    color: white;
+    margin: 13px;
+    margin-top: 60px;
+}
+.FooterIcon svg:hover{
+    color:#004f88;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}

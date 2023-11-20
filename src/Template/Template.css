@@ -1,0 +1,144 @@
+@import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+
+.Template-h1 {
+    color:#282D4F;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    font-family: Circular Std;
+}
+
+.Template-btns button {
+    color: rgba(12, 140, 233, 1);
+    border-radius: 22.88px;
+    border: 1.43px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1.43px solid rgba(12, 140, 233, 0.2);
+    font-family: Circular Std;
+}
+
+.Template-btn {
+    font-size: 16px;
+    width: 98px;
+}
+.Template-btn:hover {
+    background-color:#033a61;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.Template-btn2 {
+    width: 170px;
+    font-size: 16px;
+}
+.Template-btn2:hover {
+    background-color:#033a61;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.LOGOS {
+    width: 16.29px;
+    height: 20.57px;
+    margin-bottom: 2px;
+    margin-right: 6px
+}
+
+
+.user-img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.Template-p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(136, 139, 151, 1);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Circular Std;
+}
+
+.Template-h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: rgba(40, 45, 79, 1);
+    margin-right: 62px;
+    font-family: Circular Std;
+}
+
+.Temp-Old {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.Temp-Old button {
+    margin-left: 5px;
+    width: 130.5px;
+    height: 35.29px;
+    border-radius: 29.71px;
+    border: 0.93px solid rgb(212, 210, 210);
+    gap: 7.43px;
+    font-family: Circular Std;
+    font-size: 13px;
+    font-weight: 450;
+    line-height: 26px;
+    color: rgba(136, 139, 151, 1);
+    background-color: white;
+}
+.Temp-Old button:hover {
+    background-color:#033a61;
+    color:white ;
+    transition: 0.3s ease-in-out;
+}
+.hr{
+    color: rgba(12, 45, 233, 0.404);
+}
+
+.Template-card {
+    width: 100%;
+    height: 330px;
+    padding: 24px;
+    border-radius: 22.88px;
+    border: 1px solid rgba(12, 140, 233, 0.2);
+    padding: 14px;
+}
+
+.card-h2 {
+    font-family: Circular Std;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(40, 45, 79, 1);
+}
+
+.temp-logo {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.temp-h6 {
+    color: rgba(136, 139, 151, 1);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 25.33px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Circular Std;
+}
+.temp-h6:hover{
+    color:#004f88;
+    transition: 0.3s ease-in-out;
+}

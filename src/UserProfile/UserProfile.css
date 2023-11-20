@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
+
+.user-id{
+    text-align: center;
+}
+
+.user-id h2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.user-id-followers{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.user-followers h3{
+    font-weight:600;
+    color:rgba(57, 58, 79, 1);
+    font-family:Roboto;
+    font-weight:lighter;  
+}
+
+.user-followers p{
+line-height: 4px;
+font-weight:lighter;
+font-size: 15px;
+color: rgba(153, 153, 153, 1);
+font-family:Roboto;
+font-weight:lighter;
+}
+
+.user-button{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 1rem;
+}
+.user-id img{
+    width: 78px;
+    height: 78px;
+}
+.btn-1{
+   height: 38px;
+   width: 260px;
+   border: none;
+   color: rgba(255, 255, 255, 1);
+   background-color:rgba(12, 140, 233, 1);
+   border-radius: 10px;
+   font-size: 16px;
+   font-family:Roboto;
+   font-weight: 700;
+}
+
+.btn-2{
+    height: 38px;
+   width: 260px;
+    border: solid rgba(12, 140, 233, 1) 2px;
+    color: rgba(12, 140, 233, 1);
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family:Roboto;
+   font-weight: 700;
+}
+
+.btn-3{
+    height: 40px;
+    width: 260px;
+    padding: 8px;
+    border: solid rgba(12, 140, 233, 1) 1px;
+    color:gray;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-size: 20px; 
+    text-decoration: none;
+    text-align: start;
+    font-family:Roboto;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.btn-3 img{
+    height: 18px;
+    width: 18px;
+    
+}
+
+.user-taxt{
+    padding-top: 2rem;
+    text-align: start;
+}
+
+.user-taxt h3{
+    font-family:Roboto;
+    font-weight: 500; 
+}
+
+.user-taxt p{
+    font-weight: 400;
+    color:gray;
+    font-family:Roboto;
+    font-weight: 400; 
+
+}
+
+.user-taxt a{
+    color: rgba(12, 140, 233, 1);
+    text-decoration: none;
+
+
+}
+
+.contact-button{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 3rem;
+}
+
+.contact-button a{
+    font-family:  Circular Std;
+    font-weight: 500;
+}

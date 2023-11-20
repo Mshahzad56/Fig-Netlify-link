@@ -1,0 +1,71 @@
+@import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: filter 0.3s;
+}
+
+.image-container:hover img {
+  filter: brightness(60%); /* Adjust the brightness value as needed */
+}
+
+.button {
+  background-color:black;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 18px;
+  font-family: circular std;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+.imag-icon{
+  height: 18px;
+  width: 18px;
+  margin-left: 5px;
+  
+  
+}
+
+.imag-icon3{
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.overlay-buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover{
+  
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container:hover .overlay-buttons {
+  opacity: 1;
+}

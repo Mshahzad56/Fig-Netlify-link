@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;800&display=swap');
+.Pricing-Sec-1 {
+    background-image: url('../Images/Background.png');
+    height: 215px;
+    width: 100%;
+}
+
+.Pricing-Sec-1 h1 {
+    height: 48px;
+    margin-left: 180px;
+    color: white;
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: 0em;
+}
+
+.Pricing-dflex {
+    display: flex;
+    margin-left: 180px;
+    height: 22px;
+    margin-top: 15px;
+}
+
+.Pricing-Sec-1 .arrow {
+    width: 20px;
+    height: 12px;
+}
+
+.Pricing-sec-2-h1 {
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(35, 29, 79, 1);
+}
+
+.Pricing-sec-2-p {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(132, 129, 153, 1);
+}
+
+
+.pricing-card-btn {
+    width: 100%;
+    height: 45px;
+    opacity: 0.1px;
+    color: rgb(29, 108, 254);
+    border-radius: 30px;
+    border: none;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.pricing-card-btn:hover{
+    background-color:#033a61;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.Pricing-Card {
+    padding: 25px;
+    border: none;
+    margin-top: 80px;
+    font-family: Urbanist;
+    cursor: pointer;
+}
+.Pricing-Card:hover{
+    padding: 12px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(0, 60, 255), rgb(0, 255, 255));
+    box-shadow:6px 61px 57px -21px rgba(2, 91, 255, 0.39);
+    transition: 0.3s ease-in-out;
+}
+.Pricing-Card:hover p,
+.Pricing-Card:hover .check,
+.Pricing-Card:hover h2,
+.Pricing-Card:hover h3,
+.Pricing-Card:hover .price-span{
+    color: white;
+}
+
+.pricing-card-h2 {
+    font-family: Urbanist;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(35, 29, 79, 1);
+}
+
+
+.price-span {
+    font-family: Urbanist;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(132, 129, 153, 1);
+}
+.one{
+    color: rgba(255, 255, 255, 1);
+}
+
+.Pricing-Card p {
+    font-family: Urbanist;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(132, 129, 153, 1);
+    margin-top: 2px;
+}
+
+.check {
+    color: rgb(29, 108, 254);
+}
+.check1{
+    color:rgba(255, 255, 255, 1);
+}
+
+
+.Pricing-Card-3 {
+    padding: 12px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(0, 60, 255), rgb(0, 255, 255));
+    color: white;
+    font-weight: 500;
+    font-family: Urbanist;
+    box-shadow:6px 61px 57px -21px rgba(2, 91, 255, 0.39);
+}
+
+.Most {
+    width: 121px;
+    height: 34px;
+    font-family: Urbanist;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.83px;
+    border-radius: 30px;
+    margin-left: 120px;
+    float: right;
+    border: none;
+    color: rgb(29, 108, 254);
+}
+.Most:hover{
+    background-color:#033a61;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
